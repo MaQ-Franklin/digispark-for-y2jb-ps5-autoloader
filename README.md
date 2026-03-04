@@ -1,5 +1,5 @@
 # Digispark Arduino script for the Y2JB PS5 autoloader
-This is the Digispark Arduino script to run the Y2JB during a PS5 console boot. It's used to simplify the process of launching the jailbreak exploint during the cold boot. It was tested on PS5 7.0, etaHEN 2.4B and kstuff 1.6. Script has an ability to automatically close the Itemzflow welcome message so you can land directly in the games selection screen. Feel free to adjust the script as you probably need different delay times for your configuration!
+This is the Digispark Arduino script to run the Y2JB during a PS5 console boot. It's used to simplify the process of launching the jailbreak exploint during the cold boot. It was tested on PS5 7.0, Y2JB Lapse 1.1, Autoloader v0.4, Y2JB 1.3, etaHEN 2.4B and kstuff 1.6. Script has an ability to automatically close the Itemzflow welcome message so you can land directly in the games selection screen. Feel free to adjust the script as you probably need different delay times for your configuration!
 
 # Demo Video (click to view on YouTube)
 
@@ -53,8 +53,8 @@ void setup() {
   press(40);                     // Press ENTER key
   DigiKeyboard.delay(500);       // Wait 500 ms
   press(40);                     // Press ENTER key
-  delay(27000);                  // Wait 27 seconds - if you are not launching Itemzflow automatically, remove this line
-  press(40);                     // Press ENTER key - if you are not launching Itemzflow automatically, remove this line
+  delay(27000);                  // Wait 27 seconds, if you are not launching Itemzflow automatically, remove this line
+  press(40);                     // Press ENTER key, if you are not launching Itemzflow automatically, remove this line
 }
 
 void loop() {
